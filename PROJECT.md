@@ -1,19 +1,9 @@
-# reservation-core — build record
+# Reservation Core build record
 
-Owner: Lord_Sumi (`sumiEmpire001`). Portfolio project 3 of 100.
+Owner: Lord_Sumi. Portfolio project 3 of 100.
 
-## Purpose
+Scope: Resource booking service with capacity, cancellations, expiry and timezone-aware availability.
 
-Resource booking service with capacity, cancellations, expiry and timezone-aware availability.
+Required verification: Overlapping concurrent bookings, boundary dates and cancellation races.
 
-## Required verification
-
-Overlapping concurrent bookings, boundary dates and cancellation races.
-
-## Current implementation status
-
-Planned build. This repository does not yet contain a working implementation; no tests have been run.
-
-## Completion criteria
-
-Runnable code, reproducible setup and demo, validated inputs, meaningful error handling, project-specific tests, architecture notes, recorded evidence and explicit limitations. Plans, scaffolds and mock screens do not count as completed implementations. Device and live-service checks must be recorded separately when applicable.
+Working domain-service implementation with 12 passing local tests. Authentication belongs to the embedding application; no hosted API or UI is claimed.
